@@ -1,0 +1,85 @@
+<!--Estructura basica de html: head, body-->
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!--La pagina va aceptar todo tipo de caracteres-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!---Pagina que va a estar compatible con los navegadores->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <! --Los tamaños de los dispositivos -->
+    <title> Lugares Turisticos</title><!--Titulo del documento-->
+</head>
+<body>
+    <!--Contenido que va a visualizar el usuario, estructura del cuerpo: header, nav, section, aside, footer-->
+    
+    <!--Creando el encabezado-->
+    <header>
+        <h1> Lugares turisticos del El Salvador </h1>
+    </header>
+    <!--Menu de navegación-->
+    <nav>
+        <!-- Una lista desordenada -->
+        <ul>
+            <!--Elementos de la lista-->
+            </li>
+            <!--Hipervinculos para redireccionar a otras paginas 
+            URL 2 tipos de rutas:
+            - rutas relativas: Especifican rutas de archivos ubicados localmente o un servidor
+            - rutas absolutas: Especifica las rutas de enlaces, URL que estan alojados en un servidor externo -->
+                <a href = "/"> Home</a>
+            </li>
+            <li>
+                <a href="/Elpital.html">El Pital</a>
+            </li>
+            <li>
+                <a href="/rutaflores.html">La ruta de las flores</a>
+            </li>
+            <li>
+                <a href="/lagodecoatepeque.html">Lago de Coatepeque</a>
+            </li>
+        </ul>
+    </nav>
+    <!--Contenido principal de la pagina <section>, <main>, <div>, <article>
+        
+        <main>:  Etiqueta padre para nuestro contenido
+        <article>: Etiqueta para dividir nuestro contenido
+    -->
+    <main>
+        <section>
+            <article>
+                <h2>Bienvenidos a nuestra pagina web</h2>
+            </article>
+            <article>
+                <!--describiendo de que se trata la pagina web-->
+                <p>
+                    En este sitio web encontraras los lugares turisticos mas visitados de El Salvador! 
+                    Podras visualiza imagenes, detalles y direccion de dichos lugares...
+                </p>
+            </article>
+        </section>
+        <section>
+            <!--Imagen
+            src: propiedades donde colocamos la ruta de la imagen 
+            alt: propiedad que describe de que se trata la imagen
+            -->
+            <img src="/casa-en-mar.jpg" alt="lugaresturisticos" />
+        </section>
+        <!--apartado que no es tan relevante para la pagina web-->
+        <aside>
+            <!--La etiqueta span hace relevancia a lo que tenemos en otra etiqueta-->
+            <h4>Dale click aqui <span>
+                <a href="">aqui</a>
+            </span></h4>
+            <!--asignado una ruta absoluta--> 
+            <!--Target es una propiedad que toma como relevancia la redireccion de la ruta
+            _blank redirigir la ruta en una nueva pestaña-->
+            <a href="https://htmlreference.io/" target="_blank
+            ">Dale click aquí</a>
+        </aside>
+    </main>
+    <!--Pie de pagina-->
+    <footer>
+        <h1>2023 Josue Sotoy</h1>
+    </footer>
+            
+</body>
+</html>
+
